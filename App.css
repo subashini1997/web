@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+.bgimage{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKXwKf_e0Vf8vOEjzv_0apcwyHQRyezk-3KMTCRZ_Y4DUyqGsIHJBTHuIgcOfm6EGdnM&usqp=CAU');
+  background-size: cover;
+}
+h1{
+  font-weight: bolder;
+ 
+}
+.h1{
+  text-align:center;
+ 
+}
+.button{
+ 
+  text-align: center;
+
+}
+.phone-picture {
+  height: 540px;
+  width: 750px;
+  object-fit: contain;
+}
+
+.phone-container {
+  background-color: white;
+  width: 750px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+}
+
+.phone-name {
+  padding: 16px;
+  font-size: 48px;
+  margin-bottom: 0px;
+
+  /* font-weight: bold; */
+}
+
+.phone-company {
+  /* padding: 16px; */
+  font-size: 32px;
+  color: grey;
+  /* font-weight: bold; */
+  margin-top: 0px;
+}
+.phone-final{
+  font-size: 32px;
+  color:black;
+   font-weight: bold; 
+  margin-top: 0px;
+}
+body {
+  background-color: whitesmoke;
+  font-family: Roboto;
+  margin: 16px;
+}
+
+.phone-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px;
+  margin-top: 50px;
+}
